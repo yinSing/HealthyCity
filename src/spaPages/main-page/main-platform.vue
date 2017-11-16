@@ -32,7 +32,8 @@ export default {
   width: 100%;
   height: 6rem;
   font-size: 1.4rem;
-  background: orangered;
+  background: url(../../assets/img/main/header_bg.png) no-repeat center;
+  background-size: cover;
 }
 #main .nav{
   position: fixed;

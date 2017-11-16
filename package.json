@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "yinSing": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host 10.0.26.90",
     "start": "npm run dev",
     "build": "node build/build.js"
   },

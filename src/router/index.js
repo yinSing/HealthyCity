@@ -6,10 +6,18 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+  	// 登录-login
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'login',
+      component: resolve => require(['@/spaPages/login/login.vue'], resolve)
+    },
+
+    // 平台--mainPlatform
+    {
+    	path: '/main',
+    	name: 'mainPat',
+    	component: resolve => require(['@/spaPages/main-page/main-platform.vue'], resolve)
     }
-  ]
+  ]//Routes
 })
