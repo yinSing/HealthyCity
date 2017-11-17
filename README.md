@@ -3,14 +3,14 @@
 #开发的一套web后台管理系统  
 
 #使用须知  
-
-#本项目仅供学习使用，不可用于商业用途（吕松）
-
-#运行步骤（基于Node服务）  
+ 
+#以下2个步骤是搭建一个新项目用到（克隆本模板时可直接忽略）  
 
 #npm i vue-cli -g  
 
 #vue init webpack yourProjectName  
+
+#运行步骤（基于Node服务） 
 
 #npm i  
 
